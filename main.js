@@ -11,5 +11,5 @@ var player = new GameSquare.GameSquareRectObject({
 
 // Loop
 GameSquare.updateLoopCallback = function () {
-    
+    player.render()
 }
