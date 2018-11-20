@@ -6,7 +6,8 @@ var player = new GameSquare.GameSquareRectObject({
     x: 10,
     y: 10,
     width: 10,
-    height: 10
+    height: 10,
+    color: "dodgerblue"
 })
 
 // Loop
