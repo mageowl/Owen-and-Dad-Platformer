@@ -16,15 +16,9 @@ class Player extends GameSquare.GameSquareRectObject {
 }
 
 // Sprites
+var player = new Player(10, 10)
 
-// var player = new GameSquare.GameSquareRectObject({
-//     x: 10,
-//     y: 10,
-//     width: 10,
-//     height: 10,
-//     color: "dodgerblue"
-// })
 // Loop
 GameSquare.updateLoopCallback = function () {
-    //player.render()
+    player.render()
 }
