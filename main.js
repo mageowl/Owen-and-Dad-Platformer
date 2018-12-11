@@ -3,7 +3,7 @@ var canvas = new GameSquare.GameSquareCanvasObject("canvas")
 
 // Classes
 class Player extends GameSquare.GameSquareRectObject {
-    constructer(x, y) {
+    constructor(x, y) {
         // Super
         super({
             x: x,
